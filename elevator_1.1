@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+	int from = 0, to = 0, at = 0, time = 0;
+	scanf_s("%d %d %d", &from, &to, &at);
+	printf("%d 0 0\n", at);
+	time += abs(from - at);
+	printf("%d %d 1\n", from, time);
+	time += abs(to - from);
+	printf("%d %d 0", to, time);
+	return 0;
+}
