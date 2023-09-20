@@ -7,7 +7,7 @@ int main()
 	printf("Please type in 3 numbers A B C (from 1-10)\n"
 		"For there being one person from floor A to B while the elevator stays at C\n");
 	scanf_s("%d %d %d", &from, &to, &at);
-	printf("From\tTime\tNumber\n");
+	printf("At\tTime\tNumber\n");
 	printf("%d\t0\t0\n", at);
 	time += abs(from - at);
 	printf("%d\t%d\t1\n", from, time);
