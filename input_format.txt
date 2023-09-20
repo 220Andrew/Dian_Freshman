@@ -1,0 +1,7 @@
+Please type in 3 numbers A B C (from 1-10)
+For there being one person from floor A to B while the elevator stays at C
+
+as:
+
+elevator C
+A B
